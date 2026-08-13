@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="木の成長ステージ 2">
+  <defs>
+    <linearGradient id="bark" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8b5a2b"/><stop offset="0.52" stop-color="#6f401d"/><stop offset="1" stop-color="#3e2310"/></linearGradient>
+    <radialGradient id="ground" cx="50%" cy="45%"><stop stop-color="#c7e6a6" stop-opacity="0.9"/><stop offset="1" stop-color="#9ec77a" stop-opacity="0.18"/></radialGradient>
+    <linearGradient id="leaf-0" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d7f09e"/><stop offset="1" stop-color="#4e9f49"/></linearGradient>
+    <linearGradient id="leaf-1" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#bfe884"/><stop offset="1" stop-color="#3c8a43"/></linearGradient>
+    <linearGradient id="leaf-2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f2e986"/><stop offset="1" stop-color="#6bab43"/></linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+  <ellipse cx="256" cy="445" rx="47.2" ry="10.1" fill="url(#ground)" opacity="0.3" filter="url(#soft)"/>
+  <path d="M 256.0 427.0 Q 245.0 435.5 237.3 444.0" fill="none" stroke="url(#bark)" stroke-width="1.5" stroke-linecap="round" opacity="0.0"/><path d="M 256.0 429.0 Q 264.8 437.0 276.7 445.0" fill="none" stroke="url(#bark)" stroke-width="1.5" stroke-linecap="round" opacity="0.0"/><path d="M 256.0 432.0 Q 248.1 445.5 245.6 459.0" fill="none" stroke="url(#bark)" stroke-width="1.2" stroke-linecap="round" opacity="0.0"/>
+  <path d="M 256 432 C 255.2 413.8, 256.9 393.2, 256 375.0" fill="none" stroke="url(#bark)" stroke-width="5.4" stroke-linecap="round"/>
+  
+  <g><ellipse cx="265.0" cy="386.0" rx="3.3" ry="4.6" transform="rotate(42.4 265.0 386.0)" fill="url(#leaf-0)" opacity="0.96"/><ellipse cx="242.4" cy="392.5" rx="4.0" ry="5.5" transform="rotate(179.9 242.4 392.5)" fill="url(#leaf-1)" opacity="0.96"/><ellipse cx="260.3" cy="370.1" rx="4.6" ry="6.4" transform="rotate(317.4 260.3 370.1)" fill="url(#leaf-2)" opacity="0.96"/></g>
+</svg>

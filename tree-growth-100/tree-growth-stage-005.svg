@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="木の成長ステージ 5">
+  <defs>
+    <linearGradient id="bark" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8b5a2b"/><stop offset="0.52" stop-color="#6f401d"/><stop offset="1" stop-color="#3e2310"/></linearGradient>
+    <radialGradient id="ground" cx="50%" cy="45%"><stop stop-color="#c7e6a6" stop-opacity="0.9"/><stop offset="1" stop-color="#9ec77a" stop-opacity="0.18"/></radialGradient>
+    <linearGradient id="leaf-0" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d7f09e"/><stop offset="1" stop-color="#4e9f49"/></linearGradient>
+    <linearGradient id="leaf-1" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#bfe884"/><stop offset="1" stop-color="#3c8a43"/></linearGradient>
+    <linearGradient id="leaf-2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f2e986"/><stop offset="1" stop-color="#6bab43"/></linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+  <ellipse cx="256" cy="445" rx="49.9" ry="10.6" fill="url(#ground)" opacity="0.3" filter="url(#soft)"/>
+  <path d="M 256.0 427.0 Q 243.9 435.5 235.3 444.0" fill="none" stroke="url(#bark)" stroke-width="1.5" stroke-linecap="round" opacity="0.1"/><path d="M 256.0 429.0 Q 265.9 437.0 279.0 445.0" fill="none" stroke="url(#bark)" stroke-width="1.5" stroke-linecap="round" opacity="0.1"/><path d="M 256.0 432.0 Q 247.5 445.5 244.5 459.0" fill="none" stroke="url(#bark)" stroke-width="1.2" stroke-linecap="round" opacity="0.1"/>
+  <path d="M 256 432 C 255.1 410.8, 257.2 387.0, 256 365.9" fill="none" stroke="url(#bark)" stroke-width="6.8" stroke-linecap="round"/>
+  
+  <g><ellipse cx="263.4" cy="380.1" rx="3.5" ry="4.9" transform="rotate(55.0 263.4 380.1)" fill="url(#leaf-0)" opacity="0.96"/><ellipse cx="243.6" cy="381.8" rx="4.1" ry="5.8" transform="rotate(192.5 243.6 381.8)" fill="url(#leaf-1)" opacity="0.96"/><ellipse cx="262.6" cy="366.6" rx="4.8" ry="6.7" transform="rotate(330.0 262.6 366.6)" fill="url(#leaf-2)" opacity="0.96"/><ellipse cx="261.4" cy="392.9" rx="3.8" ry="5.3" transform="rotate(467.5 261.4 392.9)" fill="url(#leaf-0)" opacity="0.96"/><ellipse cx="235.4" cy="367.6" rx="4.5" ry="6.2" transform="rotate(605.0 235.4 367.6)" fill="url(#leaf-1)" opacity="0.96"/><ellipse cx="279.8" cy="373.8" rx="3.5" ry="4.9" transform="rotate(742.5 279.8 373.8)" fill="url(#leaf-2)" opacity="0.96"/></g>
+</svg>
