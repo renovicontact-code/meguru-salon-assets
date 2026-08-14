@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="木の成長ステージ 11">
+  <defs>
+    <linearGradient id="bark" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8b5a2b"/><stop offset="0.52" stop-color="#6f401d"/><stop offset="1" stop-color="#3e2310"/></linearGradient>
+    <radialGradient id="ground" cx="50%" cy="45%"><stop stop-color="#c7e6a6" stop-opacity="0.9"/><stop offset="1" stop-color="#9ec77a" stop-opacity="0.18"/></radialGradient>
+    <linearGradient id="leaf-0" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d7f09e"/><stop offset="1" stop-color="#4e9f49"/></linearGradient>
+    <linearGradient id="leaf-1" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#bfe884"/><stop offset="1" stop-color="#3c8a43"/></linearGradient>
+    <linearGradient id="leaf-2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f2e986"/><stop offset="1" stop-color="#6bab43"/></linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+  <ellipse cx="256" cy="445" rx="55.2" ry="11.8" fill="url(#ground)" opacity="0.3" filter="url(#soft)"/>
+  <path d="M 256.0 427.0 Q 241.9 435.5 231.1 444.0" fill="none" stroke="url(#bark)" stroke-width="1.9" stroke-linecap="round" opacity="0.3"/><path d="M 256.0 429.0 Q 268.1 437.0 283.5 445.0" fill="none" stroke="url(#bark)" stroke-width="1.7" stroke-linecap="round" opacity="0.3"/><path d="M 256.0 432.0 Q 246.4 445.5 242.2 459.0" fill="none" stroke="url(#bark)" stroke-width="1.3" stroke-linecap="round" opacity="0.2"/>
+  <path d="M 256 432 C 254.7 405.0, 257.6 374.7, 256 347.7" fill="none" stroke="url(#bark)" stroke-width="9.4" stroke-linecap="round"/>
+  <path d="M 256.0 416.8 Q 248.9 409.3 238.8 401.8" fill="none" stroke="url(#bark)" stroke-width="4.0" stroke-linecap="round" opacity="0.2"/>
+  <g><ellipse cx="261.1" cy="367.8" rx="3.9" ry="5.4" transform="rotate(80.2 261.1 367.8)" fill="url(#leaf-0)" opacity="0.96"/><ellipse cx="244.8" cy="362.8" rx="4.5" ry="6.3" transform="rotate(217.7 244.8 362.8)" fill="url(#leaf-1)" opacity="0.96"/><ellipse cx="267.2" cy="355.9" rx="5.2" ry="7.2" transform="rotate(355.2 267.2 355.9)" fill="url(#leaf-2)" opacity="0.96"/><ellipse cx="253.1" cy="379.2" rx="4.2" ry="5.9" transform="rotate(492.7 253.1 379.2)" fill="url(#leaf-0)" opacity="0.96"/><ellipse cx="244.1" cy="348.7" rx="4.9" ry="6.8" transform="rotate(630.2 244.1 348.7)" fill="url(#leaf-1)" opacity="0.96"/><ellipse cx="276.2" cy="367.5" rx="3.9" ry="5.4" transform="rotate(767.7 276.2 367.5)" fill="url(#leaf-2)" opacity="0.96"/><ellipse cx="234.8" cy="373.0" rx="4.5" ry="6.3" transform="rotate(905.2 234.8 373.0)" fill="url(#leaf-0)" opacity="0.96"/><ellipse cx="265.2" cy="340.8" rx="5.2" ry="7.2" transform="rotate(1042.8 265.2 340.8)" fill="url(#leaf-1)" opacity="0.96"/><ellipse cx="267.3" cy="384.6" rx="4.2" ry="5.9" transform="rotate(1180.3 267.3 384.6)" fill="url(#leaf-2)" opacity="0.96"/><ellipse cx="231.1" cy="354.3" rx="4.9" ry="6.8" transform="rotate(1317.8 231.1 354.3)" fill="url(#leaf-0)" opacity="0.96"/><ellipse cx="286.5" cy="354.8" rx="3.9" ry="5.4" transform="rotate(1455.3 286.5 354.8)" fill="url(#leaf-1)" opacity="0.96"/><ellipse cx="239.0" cy="389.0" rx="4.5" ry="6.3" transform="rotate(1592.8 239.0 389.0)" fill="url(#leaf-2)" opacity="0.96"/></g>
+</svg>
